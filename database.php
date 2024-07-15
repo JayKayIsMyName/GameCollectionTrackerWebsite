@@ -1,6 +1,6 @@
 <?php
 // Connect to the MySQL database using PHP Data Objects (PDO)
-$db = new PDO("mysql:host=localhost;dbname=project", "root", "root");
+$db = new PDO("mysql:host=localhost;dbname=project", "admin", "password");
 // Set the PDO error mode to exception
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
